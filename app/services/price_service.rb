@@ -9,7 +9,6 @@ class PriceService
       hours = calculate_hours(@station.time)
       product.delivery_rate = calculate_rate(product.weight, hours)
     end
-
   end
 
   def calculate_rate(weight, hours)
