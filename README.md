@@ -10,7 +10,7 @@
 #### Setup
 
 ```bash
-rails db:creates
+rails db:create
 rails db:migrate
 bundle install
 ```
