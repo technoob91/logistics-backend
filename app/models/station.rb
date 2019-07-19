@@ -1,3 +1,15 @@
+# == Schema Information
+#
+# Table name: stations
+#
+#  id         :bigint           not null, primary key
+#  name       :string
+#  latitude   :decimal(, )
+#  longitude  :decimal(, )
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 class Station < ApplicationRecord
   attr_accessor :time
   has_many :products
